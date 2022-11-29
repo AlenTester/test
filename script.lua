@@ -1,3 +1,4 @@
+print('helloworld')
 local WhitelistData = http:GetAsync("https://raw.githubusercontent.com/AlenTester/test/main/data.json")
 
 local response = http:JSONDecode(WhitelistData)
