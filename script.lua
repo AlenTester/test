@@ -1,4 +1,6 @@
 print('helloworld')
+local http = game:GetService('HttpService')
+
 local WhitelistData = http:GetAsync("https://raw.githubusercontent.com/AlenTester/test/main/data.json")
 
 local response = http:JSONDecode(WhitelistData)
